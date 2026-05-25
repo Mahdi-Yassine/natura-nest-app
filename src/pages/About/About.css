@@ -1,75 +1,70 @@
-/* ===== Contact Section ===== */
-.nn-contact-section {
-  display: flex;
-  gap: 30px;
+/* ===== About Section ===== */
+.nn-about-section {
   padding: 40px 20px;
   max-width: 1100px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
-.nn-contact-info,
-.nn-contact-form-box {
-  background-color: white;
-  padding: 30px;
+/* ── Story block ── */
+.nn-about__img {
+  width: 400px;
+  max-width: 100%;
   border-radius: 10px;
-  flex: 1;
-  min-width: 280px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 280px;
+  object-fit: cover;
 }
 
-.nn-contact__heading {
+.nn-about__story-title {
   color: #4a7c3a;
-  margin-bottom: 15px;
-  font-size: 20px;
-}
-
-.nn-contact-info__row {
   margin-bottom: 10px;
-  font-size: 15px;
 }
 
-.nn-contact-form-box label {
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: 14px;
+.nn-about__story-body {
+  margin-bottom: 12px;
 }
 
-.nn-contact-form-box input,
-.nn-contact-form-box textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
-}
-
-.nn-contact-form-box input:focus,
-.nn-contact-form-box textarea:focus {
-  outline: none;
-  border-color: #4a7c3a;
-  box-shadow: 0 0 0 2px rgba(74, 124, 58, 0.15);
-}
-
-.nn-contact-form-box .btn-brand {
-  margin-top: 15px;
-  width: 100%;
+/* ── Mission / Vision / Values ── */
+/* ── Mission / Vision / Values ── */
+.nn-mv-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px !important;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: none !important;
+  height: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.nn-contact-form__success {
-  margin-top: 15px;
-  color: green;
-  font-weight: bold;
+.nn-mv-card__title {
+  color: #4a7c3a;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.nn-mv-card__text {
   font-size: 14px;
+  color: #555;
+  margin: 0;
 }
 
-/* ===== Responsive ===== */
+/* ── Team row ── */
+.nn-team-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* ── Responsive ── */
 @media (max-width: 768px) {
-  .nn-contact-section {
-    flex-direction: column;
+  .nn-about__img {
+    width: 100%;
+    height: auto;
   }
 }
