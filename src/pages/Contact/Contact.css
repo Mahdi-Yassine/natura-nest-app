@@ -1,0 +1,83 @@
+.nn-contact {
+  padding-bottom: 3rem;
+}
+
+/* ── Info & Form panels ── */
+.nn-contact-info,
+.nn-contact-form {
+  background-color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  height: 100%;
+  font-family: var(--font-body);
+}
+
+.nn-contact__heading {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--green-primary);
+  margin-bottom: 1.2rem;
+}
+
+/* ── Info rows ── */
+.nn-contact-info__row {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* ── Form labels ── */
+.nn-contact-form .form-label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Inputs & Textarea ── */
+.nn-input {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.55rem 0.75rem;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+}
+
+.nn-input:focus {
+  outline: none;
+  border-color: var(--green-primary) !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 124, 58, 0.2) !important;
+}
+
+/* ── Submit button full-width ── */
+.nn-contact-form .btn-brand {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* ── Success message ── */
+.nn-contact-form__success {
+  margin-top: 1rem;
+  padding: 0.65rem 1rem;
+  background-color: var(--green-light);
+  color: var(--green-dark);
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  border-left: 4px solid var(--green-primary);
+}
+
+/* ── Mobile ── */
+@media (max-width: 767.98px) {
+  .nn-contact-info,
+  .nn-contact-form {
+    padding: 1.5rem;
+  }
+}

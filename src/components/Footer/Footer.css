@@ -1,12 +1,13 @@
+/* ===== Footer ===== */
 .nn-footer {
-  background-color: var(--green-primary);
-  color: #fff;
-  padding: 1.4rem 0;
-  font-family: var(--font-body);
-  font-size: 0.875rem;
-  margin-top: 2rem;
+  background-color: #4a7c3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 .nn-footer p {
-  margin: 4px 0;
+  margin: 5px 0;
+  font-size: 14px;
 }

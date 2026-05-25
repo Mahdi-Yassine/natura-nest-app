@@ -1,0 +1,9 @@
+.nn-product-list {
+  padding: 1rem 0 2rem;
+}
+
+/* Bootstrap row-cols handles the grid —
+   this file only adds vertical spacing */
+.nn-product-list .row {
+  row-gap: 1.5rem;
+}

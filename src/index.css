@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ===== Google Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+/* ===== CSS Variables ===== */
+:root {
+  --green-primary: #4a7c3a;
+  --green-dark:    #3b6230;
+  --green-light:   #e0f0d0;
+  --green-bg:      #f2efe5;
+  --cream:         #fdfaf3;
+  --orange-accent: #c5702f;
+  --shadow:        0 2px 8px rgba(0, 0, 0, 0.1);
+  --radius:        10px;
+  --font-display:  'Playfair Display', Georgia, serif;
+  --font-body:     'Lato', Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ===== Base Reset ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cream);
+  color: #333;
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== Shared: Section Title ===== */
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--green-primary);
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== Shared: Brand Button (large) ===== */
+.btn-brand {
+  background-color: var(--green-primary);
+  color: #fff !important;
+  border: none;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+.btn-brand:hover {
+  background-color: var(--green-dark);
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* ===== Shared: Brand Button (small) ===== */
+.btn-brand-sm {
+  background-color: var(--green-primary);
+  color: #fff !important;
+  border: none;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.45rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-brand-sm:hover {
+  background-color: var(--green-dark);
+  transform: translateY(-1px);
+}
+
+/* ===== Shared: Filter Button ===== */
+.btn-filter {
+  background-color: #fff;
+  color: var(--green-primary);
+  border: 2px solid var(--green-primary);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-filter:hover,
+.btn-filter.active {
+  background-color: var(--green-primary);
+  color: #fff;
 }
