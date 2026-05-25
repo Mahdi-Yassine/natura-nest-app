@@ -1,11 +1,24 @@
 import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+      <Router>
+      <div className="app">
+        <Navbar />
+        <main className="main-content">
+          <Routes>
+            
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+
   );
 }
 

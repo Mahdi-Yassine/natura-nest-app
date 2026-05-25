@@ -1,0 +1,12 @@
+.nn-footer {
+  background-color: var(--green-primary);
+  color: #fff;
+  padding: 1.4rem 0;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+.nn-footer p {
+  margin: 4px 0;
+}
