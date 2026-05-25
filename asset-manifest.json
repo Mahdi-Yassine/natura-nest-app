@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/naturanest/static/css/main.c02ee473.css",
+    "main.js": "/naturanest/static/js/main.b5beba7b.js",
+    "static/js/453.11b9864c.chunk.js": "/naturanest/static/js/453.11b9864c.chunk.js",
+    "static/media/about.jpg": "/naturanest/static/media/about.210c6257ae16ea093929.jpg",
+    "static/media/Nature_Almonds.jpg": "/naturanest/static/media/Nature_Almonds.6dde45c14ad19fa8f58b.jpg",
+    "static/media/dried.jpg": "/naturanest/static/media/dried.2dfb623cb2e6b9266dd7.jpg",
+    "static/media/Homemade-Granola.jpg": "/naturanest/static/media/Homemade-Granola.ea5bccba1d1e46c9d2be.jpg",
+    "static/media/Maple_Syrup.jpg": "/naturanest/static/media/Maple_Syrup.bf40121dedc0c1fb7f74.jpg",
+    "static/media/Team3.jpg": "/naturanest/static/media/Team3.6878410baaacc800fbab.jpg",
+    "static/media/Team1.jpg": "/naturanest/static/media/Team1.7a13a95d2d9a1bc18c7b.jpg",
+    "static/media/Team2.jpg": "/naturanest/static/media/Team2.9064ef53f46c222cb925.jpg",
+    "static/media/Natural.jpg": "/naturanest/static/media/Natural.97e9d4ad44033db864a6.jpg",
+    "static/media/Cashew.jpg": "/naturanest/static/media/Cashew.8816e374043fb9f1091e.jpg",
+    "static/media/hero.jpg": "/naturanest/static/media/hero.226c206b549edd764410.jpg",
+    "static/media/Almond.jpg": "/naturanest/static/media/Almond.d3ef631c8ed503480217.jpg",
+    "static/media/Honey.jpg": "/naturanest/static/media/Honey.5f0d54651f0a85690dfb.jpg",
+    "index.html": "/naturanest/index.html",
+    "main.c02ee473.css.map": "/naturanest/static/css/main.c02ee473.css.map",
+    "main.b5beba7b.js.map": "/naturanest/static/js/main.b5beba7b.js.map",
+    "453.11b9864c.chunk.js.map": "/naturanest/static/js/453.11b9864c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c02ee473.css",
+    "static/js/main.b5beba7b.js"
+  ]
+}
